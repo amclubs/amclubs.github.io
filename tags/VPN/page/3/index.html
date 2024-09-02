@@ -1,0 +1,654 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>标签: VPN | AM科技</title><meta name="keywords" content="AM,AM科技,技术分享,满满干货,AM_CLUB,ansoncloud8,am,am_club,tunnel,CF,cf,vless,节点,cloudflare,proxy,http://youtube.com/@AM_CLUB,am-nodejs-proxy,VPN,科学上网"><meta name="author" content="AM科技"><meta name="copyright" content="AM科技"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="标签: VPN"><meta name="application-name" content="标签: VPN"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="标签: VPN"><meta property="og:url" content="https://am.809098.xyz/tags/VPN/page/3/index.html"><meta property="og:site_name" content="AM科技"><meta property="og:description" content="AM科技  技术分享 满满干货，从0到1实现，从到落地应用，尽情期待~"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://am.809098.xyz/img/default.ico"><meta property="article:author" content="AM科技"><meta property="article:tag" content="AM,AM科技,技术分享,满满干货,AM_CLUB,ansoncloud8,am,am_club,tunnel,CF,cf,vless,节点,cloudflare,proxy,http://youtube.com/@AM_CLUB,am-nodejs-proxy,VPN,科学上网"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://am.809098.xyz/img/default.ico"><meta name="description" content="AM科技  技术分享 满满干货，从0到1实现，从到落地应用，尽情期待~"><link rel="shortcut icon" href="/img/default.ico"><link rel="canonical" href="https://am.809098.xyz/tags/VPN/page/3/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="6uUS4gHMkR97aj0wJ3BxqiOAH0ObiYCuSaF-FboXcM8"/><meta name="baidu-site-verification" content="codeva-XRvSsr98mz"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"am","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://am.809098.xyz/"},
+  diytitle: {"enable":true,"leaveTitle":"AM科技 技术分享满满干货","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://amclubs.netlify.app/.netlify/functions/twikoo',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":null},
+  algolia: {"appId":"GJU7I4AJ43","apiKey":"6436d4fc0b401ececfa055d152b4579c","indexName":"am-hexo-blog","hits":{"per_page":6},"languages":{"input_placeholder":"输入关键词后按下回车查找","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: AM科技","link":"链接: ","source":"来源: AM科技","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'AM科技',
+  title: '标签: VPN',
+  postAI: '',
+  pageFillDescription: '科技技术分享满满干货从到实现从到落地应用尽情期待',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-09-02 22:50:22',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="/img/default.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">AM科技</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 教程Tutorial</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 全部文章</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 文章分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/FAQ/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 常见问题FAQ</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 推荐REC</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/"><i class="anzhiyufont anzhiyu-icon-rocket faa-tada" style="font-size: 0.9em;"></i><span> 机场推荐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> VPS推荐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 公益服务CSR</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/cf/"><i class="anzhiyufont anzhiyu-icon-dice faa-tada" style="font-size: 0.9em;"></i><span> CloudFlare优先</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 短链生成器</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/"><i class="anzhiyufont anzhiyu-icon-rss faa-tada" style="font-size: 0.9em;"></i><span> 订阅转换</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于AM</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="https://am.809098.xyz/about"><i class="anzhiyufont anzhiyu-icon-house-chimney faa-tada" style="font-size: 0.9em;"></i><span> 关于AM科技</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB"><i class="anzhiyufont anzhiyu-icon-play faa-tada" style="font-size: 0.9em;"></i><span> YouTube频道</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://github.com/amclubs"><i class="anzhiyufont anzhiyu-icon-github faa-tada" style="font-size: 0.9em;"></i><span> GitHub仓库</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://t.me/AM_CLUBS"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> Telegram交流群</span></a></li><li><a class="site-page child faa-parent animated-hover" href="mailto:amclubss@gmail.com"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> Email</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://facebook.com/groups/amclubs"><i class="anzhiyufont anzhiyu-icon-facebook1 faa-tada" style="font-size: 0.9em;"></i><span> Facebook</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://tiktok.com/@amclubss"><i class="anzhiyufont anzhiyu-icon-tiktok faa-tada" style="font-size: 0.9em;"></i><span> TikTok</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://x.com/AMClubss"><i class="anzhiyufont anzhiyu-icon-dove faa-tada" style="font-size: 0.9em;"></i><span> X(Twitter)</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/FAQ/"><span> 常见问题FAQ</span></a></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="/img/qrcode/usdt-trc20.jpg" target="_blank"><img class="post-qr-code-img" alt="USDT-TRC20" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/qrcode/usdt-trc20.jpg"/></a><div class="post-qr-code-desc">USDT-TRC20</div></li><li class="reward-item"><a href="/img/qrcode/trx-trc20.jpg" target="_blank"><img class="post-qr-code-img" alt="TRX-TRC20" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/qrcode/trx-trc20.jpg"/></a><div class="post-qr-code-desc">TRX-TRC20</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>1</sup></a><a href="/tags/AList/" style="font-size: 1.05rem;">AList<sup>2</sup></a><a href="/tags/AM%E7%A7%91%E6%8A%80/" style="font-size: 1.05rem;">AM科技<sup>2</sup></a><a href="/tags/CDN/" style="font-size: 1.05rem;">CDN<sup>6</sup></a><a href="/tags/CF/" style="font-size: 1.05rem;">CF<sup>37</sup></a><a href="/tags/DNS/" style="font-size: 1.05rem;">DNS<sup>5</sup></a><a href="/tags/VPN/" style="font-size: 1.05rem;">VPN<sup>34</sup></a><a href="/tags/VPS/" style="font-size: 1.05rem;">VPS<sup>2</sup></a><a href="/tags/Vercel/" style="font-size: 1.05rem;">Vercel<sup>2</sup></a><a href="/tags/YouTube/" style="font-size: 1.05rem;">YouTube<sup>2</sup></a><a href="/tags/ai/" style="font-size: 1.05rem;">ai<sup>1</sup></a><a href="/tags/alist/" style="font-size: 1.05rem;">alist<sup>2</sup></a><a href="/tags/clash/" style="font-size: 1.05rem;">clash<sup>23</sup></a><a href="/tags/cloudflare/" style="font-size: 1.05rem;">cloudflare<sup>35</sup></a><a href="/tags/cloudns/" style="font-size: 1.05rem;">cloudns<sup>1</sup></a><a href="/tags/iptv/" style="font-size: 1.05rem;">iptv<sup>2</sup></a><a href="/tags/m3u8/" style="font-size: 1.05rem;">m3u8<sup>2</sup></a><a href="/tags/nezha/" style="font-size: 1.05rem;">nezha<sup>2</sup></a><a href="/tags/obl-ong/" style="font-size: 1.05rem;">obl.ong<sup>2</sup></a><a href="/tags/serv00/" style="font-size: 1.05rem;">serv00<sup>8</sup></a><a href="/tags/vless/" style="font-size: 1.05rem;">vless<sup>6</sup></a><a href="/tags/%E4%B8%93%E7%BA%BF/" style="font-size: 1.05rem;">专线<sup>1</sup></a><a href="/tags/%E4%BA%91%E7%9B%98/" style="font-size: 1.05rem;">云盘<sup>2</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/" style="font-size: 1.05rem;">免费域名<sup>6</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" style="font-size: 1.05rem;">免费节点<sup>27</sup></a><a href="/tags/%E5%9F%9F%E5%90%8D/" style="font-size: 1.05rem;">域名<sup>6</sup></a><a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" style="font-size: 1.05rem;">大模型<sup>1</sup></a><a href="/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" style="font-size: 1.05rem;">常见问题<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" style="font-size: 1.05rem;">技术分享<sup>2</sup></a><a href="/tags/%E6%9C%BA%E5%9C%BA/" style="font-size: 1.05rem;">机场<sup>3</sup></a><a href="/tags/%E6%BB%A1%E6%BB%A1%E5%B9%B2%E8%B4%A7/" style="font-size: 1.05rem;">满满干货<sup>2</sup></a><a href="/tags/%E7%94%B5%E8%A7%86/" style="font-size: 1.05rem;">电视<sup>2</sup></a><a href="/tags/%E7%9B%91%E6%8E%A7/" style="font-size: 1.05rem;">监控<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 1.05rem;">直播<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/" style="font-size: 1.05rem;">直播源<sup>1</sup></a><a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" style="font-size: 1.05rem;">科学上网<sup>29</sup></a><a href="/tags/%E7%BD%91%E7%9B%98/" style="font-size: 1.05rem;">网盘<sup>2</sup></a><a href="/tags/%E8%8A%82%E7%82%B9/" style="font-size: 1.05rem;">节点<sup>3</sup></a><a href="/tags/%E8%A7%A3%E9%94%81GPT/" style="font-size: 1.05rem;">解锁GPT<sup>23</sup></a><a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 1.05rem;">订阅<sup>23</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/09/"><span class="card-archive-list-date">九月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">14</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">27</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout" id="content-inner"><div id="tag"><div id="tag-page-tags">
+      <a href="/tags/CF/" id="/tags/CF/">
+        <span class="tags-punctuation">#</span>CF
+        <span class="tagsPageCount">37</span>
+      </a>
+    
+      <a href="/tags/cloudflare/" id="/tags/cloudflare/">
+        <span class="tags-punctuation">#</span>cloudflare
+        <span class="tagsPageCount">35</span>
+      </a>
+    
+      <a href="/tags/VPN/" id="/tags/VPN/">
+        <span class="tags-punctuation">#</span>VPN
+        <span class="tagsPageCount">34</span>
+      </a>
+    
+      <a href="/tags/科学上网/" id="/tags/科学上网/">
+        <span class="tags-punctuation">#</span>科学上网
+        <span class="tagsPageCount">29</span>
+      </a>
+    
+      <a href="/tags/免费节点/" id="/tags/免费节点/">
+        <span class="tags-punctuation">#</span>免费节点
+        <span class="tagsPageCount">27</span>
+      </a>
+    
+      <a href="/tags/订阅/" id="/tags/订阅/">
+        <span class="tags-punctuation">#</span>订阅
+        <span class="tagsPageCount">23</span>
+      </a>
+    
+      <a href="/tags/解锁GPT/" id="/tags/解锁GPT/">
+        <span class="tags-punctuation">#</span>解锁GPT
+        <span class="tagsPageCount">23</span>
+      </a>
+    
+      <a href="/tags/clash/" id="/tags/clash/">
+        <span class="tags-punctuation">#</span>clash
+        <span class="tagsPageCount">23</span>
+      </a>
+    
+      <a href="/tags/v2rayN/" id="/tags/v2rayN/">
+        <span class="tags-punctuation">#</span>v2rayN
+        <span class="tagsPageCount">20</span>
+      </a>
+    
+      <a href="/tags/rss/" id="/tags/rss/">
+        <span class="tags-punctuation">#</span>rss
+        <span class="tagsPageCount">17</span>
+      </a>
+    
+      <a href="/tags/serv00/" id="/tags/serv00/">
+        <span class="tags-punctuation">#</span>serv00
+        <span class="tagsPageCount">8</span>
+      </a>
+    
+      <a href="/tags/vless/" id="/tags/vless/">
+        <span class="tags-punctuation">#</span>vless
+        <span class="tagsPageCount">6</span>
+      </a>
+    
+      <a href="/tags/域名/" id="/tags/域名/">
+        <span class="tags-punctuation">#</span>域名
+        <span class="tagsPageCount">6</span>
+      </a>
+    
+      <a href="/tags/免费域名/" id="/tags/免费域名/">
+        <span class="tags-punctuation">#</span>免费域名
+        <span class="tagsPageCount">6</span>
+      </a>
+    
+      <a href="/tags/CDN/" id="/tags/CDN/">
+        <span class="tags-punctuation">#</span>CDN
+        <span class="tagsPageCount">6</span>
+      </a>
+    
+      <a href="/tags/注册/" id="/tags/注册/">
+        <span class="tags-punctuation">#</span>注册
+        <span class="tagsPageCount">6</span>
+      </a>
+    
+      <a href="/tags/DNS/" id="/tags/DNS/">
+        <span class="tags-punctuation">#</span>DNS
+        <span class="tagsPageCount">5</span>
+      </a>
+    
+      <a href="/tags/wireguard/" id="/tags/wireguard/">
+        <span class="tags-punctuation">#</span>wireguard
+        <span class="tagsPageCount">4</span>
+      </a>
+    
+      <a href="/tags/节点，免费节点/" id="/tags/节点，免费节点/">
+        <span class="tags-punctuation">#</span>节点，免费节点
+        <span class="tagsPageCount">4</span>
+      </a>
+    
+      <a href="/tags/机场/" id="/tags/机场/">
+        <span class="tags-punctuation">#</span>机场
+        <span class="tagsPageCount">3</span>
+      </a>
+    
+      <a href="/tags/节点/" id="/tags/节点/">
+        <span class="tags-punctuation">#</span>节点
+        <span class="tagsPageCount">3</span>
+      </a>
+    
+      <a href="/tags/AM科技/" id="/tags/AM科技/">
+        <span class="tags-punctuation">#</span>AM科技
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/技术分享/" id="/tags/技术分享/">
+        <span class="tags-punctuation">#</span>技术分享
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/满满干货/" id="/tags/满满干货/">
+        <span class="tags-punctuation">#</span>满满干货
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/obl-ong/" id="/tags/obl-ong/">
+        <span class="tags-punctuation">#</span>obl.ong
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/Vercel/" id="/tags/Vercel/">
+        <span class="tags-punctuation">#</span>Vercel
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/YouTube/" id="/tags/YouTube/">
+        <span class="tags-punctuation">#</span>YouTube
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/m3u8/" id="/tags/m3u8/">
+        <span class="tags-punctuation">#</span>m3u8
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/直播/" id="/tags/直播/">
+        <span class="tags-punctuation">#</span>直播
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/iptv/" id="/tags/iptv/">
+        <span class="tags-punctuation">#</span>iptv
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/电视/" id="/tags/电视/">
+        <span class="tags-punctuation">#</span>电视
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/nezha/" id="/tags/nezha/">
+        <span class="tags-punctuation">#</span>nezha
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/监控/" id="/tags/监控/">
+        <span class="tags-punctuation">#</span>监控
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/网盘/" id="/tags/网盘/">
+        <span class="tags-punctuation">#</span>网盘
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/云盘/" id="/tags/云盘/">
+        <span class="tags-punctuation">#</span>云盘
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/alist/" id="/tags/alist/">
+        <span class="tags-punctuation">#</span>alist
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/AList/" id="/tags/AList/">
+        <span class="tags-punctuation">#</span>AList
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/VPS/" id="/tags/VPS/">
+        <span class="tags-punctuation">#</span>VPS
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/云服务器/" id="/tags/云服务器/">
+        <span class="tags-punctuation">#</span>云服务器
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/Cloudflare/" id="/tags/Cloudflare/">
+        <span class="tags-punctuation">#</span>Cloudflare
+        <span class="tagsPageCount">2</span>
+      </a>
+    
+      <a href="/tags/常见问题/" id="/tags/常见问题/">
+        <span class="tags-punctuation">#</span>常见问题
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/ai/" id="/tags/ai/">
+        <span class="tags-punctuation">#</span>ai
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/AI/" id="/tags/AI/">
+        <span class="tags-punctuation">#</span>AI
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/大模型/" id="/tags/大模型/">
+        <span class="tags-punctuation">#</span>大模型
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/专线/" id="/tags/专线/">
+        <span class="tags-punctuation">#</span>专线
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/cloudns/" id="/tags/cloudns/">
+        <span class="tags-punctuation">#</span>cloudns
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/直播源/" id="/tags/直播源/">
+        <span class="tags-punctuation">#</span>直播源
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/反代IP/" id="/tags/反代IP/">
+        <span class="tags-punctuation">#</span>反代IP
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/socks5/" id="/tags/socks5/">
+        <span class="tags-punctuation">#</span>socks5
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/infinityfree/" id="/tags/infinityfree/">
+        <span class="tags-punctuation">#</span>infinityfree
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/VMess/" id="/tags/VMess/">
+        <span class="tags-punctuation">#</span>VMess
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/ssh/" id="/tags/ssh/">
+        <span class="tags-punctuation">#</span>ssh
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/文件上传/" id="/tags/文件上传/">
+        <span class="tags-punctuation">#</span>文件上传
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/FTP/" id="/tags/FTP/">
+        <span class="tags-punctuation">#</span>FTP
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/SFTP/" id="/tags/SFTP/">
+        <span class="tags-punctuation">#</span>SFTP
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/翻墙/" id="/tags/翻墙/">
+        <span class="tags-punctuation">#</span>翻墙
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/BPB/" id="/tags/BPB/">
+        <span class="tags-punctuation">#</span>BPB
+        <span class="tagsPageCount">1</span>
+      </a>
+    
+      <a href="/tags/Panel/" id="/tags/Panel/">
+        <span class="tags-punctuation">#</span>Panel
+        <span class="tagsPageCount">1</span>
+      </a>
+    </div><div class="article-sort-title">VPN</div><div class="article-sort"><div class="article-sort-item year"><span>2024</span></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-tunnel-up-problem/" title="(上篇)常见问题解决,订阅测试-1,CF的KV存储如何不用命令存储和修改"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-tunnel-up-problem.jpg" alt="(上篇)常见问题解决,订阅测试-1,CF的KV存储如何不用命令存储和修改" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-tunnel-up-problem/" title="(上篇)常见问题解决,订阅测试-1,CF的KV存储如何不用命令存储和修改">(上篇)常见问题解决,订阅测试-1,CF的KV存储如何不用命令存储和修改</a><span class="article-sort-item-index">21</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-14T03:34:08.000Z" title="发表于 2024-07-14 11:34:08">2024-07-14</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-bind-domain/" title="第三期【零基础】免费域名申请绑定CF-2024最新纯小白零成本搭建永久免费节点cloudflare"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-bind-domain.jpg" alt="第三期【零基础】免费域名申请绑定CF-2024最新纯小白零成本搭建永久免费节点cloudflare" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-bind-domain/" title="第三期【零基础】免费域名申请绑定CF-2024最新纯小白零成本搭建永久免费节点cloudflare">第三期【零基础】免费域名申请绑定CF-2024最新纯小白零成本搭建永久免费节点cloudflare</a><span class="article-sort-item-index">22</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-cloudflare/" title="第一期【零基础】2024最新纯小白零成本搭建永久免费节点cloudflare, v2rayN、ClashX、sing-box、Quantumult X等工具"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-cloudflare.jpg" alt="第一期【零基础】2024最新纯小白零成本搭建永久免费节点cloudflare, v2rayN、ClashX、sing-box、Quantumult X等工具" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-cloudflare/" title="第一期【零基础】2024最新纯小白零成本搭建永久免费节点cloudflare, v2rayN、ClashX、sing-box、Quantumult X等工具">第一期【零基础】2024最新纯小白零成本搭建永久免费节点cloudflare, v2rayN、ClashX、sing-box、Quantumult X等工具</a><span class="article-sort-item-index">23</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a><a class="article-meta__tags" href="/tags/%E7%BF%BB%E5%A2%99/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>翻墙</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-github-kv/" title="第十期【零基础】CF部署GitHub私有仓库存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-github-kv.jpg" alt="第十期【零基础】CF部署GitHub私有仓库存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-github-kv/" title="第十期【零基础】CF部署GitHub私有仓库存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare">第十期【零基础】CF部署GitHub私有仓库存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare</a><span class="article-sort-item-index">24</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-github/" title="免费cloudflare直接连接github仓库部署page项目vless永久节点,实现科学上网 秒开4K 8K YouTube视频解锁Openai、GPT、TikTok等流媒体"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-github.jpg" alt="免费cloudflare直接连接github仓库部署page项目vless永久节点,实现科学上网 秒开4K 8K YouTube视频解锁Openai、GPT、TikTok等流媒体" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-github/" title="免费cloudflare直接连接github仓库部署page项目vless永久节点,实现科学上网 秒开4K 8K YouTube视频解锁Openai、GPT、TikTok等流媒体">免费cloudflare直接连接github仓库部署page项目vless永久节点,实现科学上网 秒开4K 8K YouTube视频解锁Openai、GPT、TikTok等流媒体</a><span class="article-sort-item-index">25</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-kv/" title="第九期【零基础】CF免费KV文件存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-kv.jpg" alt="第九期【零基础】CF免费KV文件存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-kv/" title="第九期【零基础】CF免费KV文件存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare">第九期【零基础】CF免费KV文件存储优选IP文件-2024最新纯小白零成本搭建永久免费节点cloudflare</a><span class="article-sort-item-index">26</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-register/" title="cloudflare帐号注册,可用CF部署永久免费节点实现科学上网"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-register.jpg" alt="cloudflare帐号注册,可用CF部署永久免费节点实现科学上网" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-register/" title="cloudflare帐号注册,可用CF部署永久免费节点实现科学上网">cloudflare帐号注册,可用CF部署永久免费节点实现科学上网</a><span class="article-sort-item-index">27</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-unlock-gpt/" title="第四期【零基础】解锁GPT-2024纯小白零成本搭建永久免费节点cloudflare"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-unlock-gpt.jpg" alt="第四期【零基础】解锁GPT-2024纯小白零成本搭建永久免费节点cloudflare" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-unlock-gpt/" title="第四期【零基础】解锁GPT-2024纯小白零成本搭建永久免费节点cloudflare">第四期【零基础】解锁GPT-2024纯小白零成本搭建永久免费节点cloudflare</a><span class="article-sort-item-index">28</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-cf-work-page/" title="第二期【零基础】work和page部署2024最新纯小白零成本搭建永久免费节点cloudflare支v2rayN、Clash、singbox、QuantumultX等工具"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-work-page.jpg" alt="第二期【零基础】work和page部署2024最新纯小白零成本搭建永久免费节点cloudflare支v2rayN、Clash、singbox、QuantumultX等工具" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-cf-work-page/" title="第二期【零基础】work和page部署2024最新纯小白零成本搭建永久免费节点cloudflare支v2rayN、Clash、singbox、QuantumultX等工具">第二期【零基础】work和page部署2024最新纯小白零成本搭建永久免费节点cloudflare支v2rayN、Clash、singbox、QuantumultX等工具</a><span class="article-sort-item-index">29</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/am-tunnel-addressesapi/" title="第五期【零基础】更换优选IP变量ADDRESSESAPI-2024纯小白零成本搭建永久免费节点"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/am-cf-tunnel-addressesapi.jpg" alt="第五期【零基础】更换优选IP变量ADDRESSESAPI-2024纯小白零成本搭建永久免费节点" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><a class="article-sort-item-title" href="/am-tunnel-addressesapi/" title="第五期【零基础】更换优选IP变量ADDRESSESAPI-2024纯小白零成本搭建永久免费节点">第五期【零基础】更换优选IP变量ADDRESSESAPI-2024纯小白零成本搭建永久免费节点</a><span class="article-sort-item-index">30</span><div class="article-meta-wrap"><span class="article-sort-item-tags"><a class="article-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>免费节点</span></a><a class="article-meta__tags" href="/tags/cloudflare/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>cloudflare</span></a><a class="article-meta__tags" href="/tags/CF/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>CF</span></a><a class="article-meta__tags" href="/tags/VPN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>VPN</span></a><a class="article-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>科学上网</span></a><a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>订阅</span></a><a class="article-meta__tags" href="/tags/%E8%A7%A3%E9%94%81GPT/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>解锁GPT</span></a><a class="article-meta__tags" href="/tags/clash/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>clash</span></a><a class="article-meta__tags" href="/tags/v2rayN/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>v2rayN</span></a><a class="article-meta__tags" href="/tags/rss/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>rss</span></a><a class="article-meta__tags" href="/tags/%E6%B3%A8%E5%86%8C/" tabindex="-1"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>注册</span></a></span><div class="article-sort-item-time"><i class="anzhiyufont anzhiyu-icon-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-07-13T03:34:08.000Z" title="发表于 2024-07-13 11:34:08">2024-07-13</time></div></div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/tags/VPN/page/2/"><i class="anzhiyufont anzhiyu-icon-chevron-left fa-fw" style="font-weight: inherit; font-size: 1rem;"></i><div class="pagination_tips_prev">上页</div></a><a class="page-number" href="/tags/VPN/">1</a><a class="page-number" href="/tags/VPN/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/tags/VPN/page/4/">4</a><a class="extend next" rel="next" href="/tags/VPN/page/4/"><div class="pagination_tips_next">下页</div><i style="font-weight: inherit; font-size: 1rem;" class="anzhiyufont anzhiyu-icon-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/default.ico" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2021/03/03/317b790a902ec.png" alt="status"/></div></div><div class="author-info__description">AM科技  技术分享 满满干货，从0到1实现，从到落地应用，尽情期待~</div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">AM科技</h1><div class="author-info__desc">技术分享 满满干货</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/amclubs" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="https://youtube.com/@AM_CLUB" target="_blank" title="YouTube"><i class="anzhiyufont anzhiyu-icon-play"></i></a><a class="social-icon faa-parent animated-hover" href="https://t.m/@AM_CLUBS" target="_blank" title="Telegram"><i class="anzhiyufont anzhiyu-icon-paper-plane"></i></a><a class="social-icon faa-parent animated-hover" href="https://facebook.com/groups/amclubs" target="_blank" title="Facebook"><i class="anzhiyufont anzhiyu-icon-facebook1"></i></a><a class="social-icon faa-parent animated-hover" href="https://tiktok.com/@amclubss" target="_blank" title="TikTok"><i class="anzhiyufont anzhiyu-icon-tiktok"></i></a><a class="social-icon faa-parent animated-hover" href="https://x.com/AMClubss" target="_blank" title="X(Twitter)"><i class="anzhiyufont anzhiyu-icon-dove"></i></a></div></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(/img/tg.jpg) center center / 100% no-repeat"></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="anzhiyufont anzhiyu-icon-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/AI/"><span class="card-category-list-name">AI</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/"><span class="card-category-list-name">免费CF节点</span><span class="card-category-list-count">18</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9IPTV/"><span class="card-category-list-name">免费IPTV</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9VPN/"><span class="card-category-list-name">免费VPN</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/"><span class="card-category-list-name">免费域名</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">免费工具</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8/"><span class="card-category-list-name">免费服务器</span><span class="card-category-list-count">9</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/"><span class="card-category-list-name">免费节点</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="sticky_layout"><div class="card-widget"><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>1</sup></a><a href="/tags/AList/" style="font-size: 1.05rem;">AList<sup>2</sup></a><a href="/tags/AM%E7%A7%91%E6%8A%80/" style="font-size: 1.05rem;">AM科技<sup>2</sup></a><a href="/tags/CDN/" style="font-size: 1.05rem;">CDN<sup>6</sup></a><a href="/tags/CF/" style="font-size: 1.05rem;">CF<sup>37</sup></a><a href="/tags/DNS/" style="font-size: 1.05rem;">DNS<sup>5</sup></a><a href="/tags/VPN/" style="font-size: 1.05rem;">VPN<sup>34</sup></a><a href="/tags/VPS/" style="font-size: 1.05rem;">VPS<sup>2</sup></a><a href="/tags/Vercel/" style="font-size: 1.05rem;">Vercel<sup>2</sup></a><a href="/tags/YouTube/" style="font-size: 1.05rem;">YouTube<sup>2</sup></a><a href="/tags/ai/" style="font-size: 1.05rem;">ai<sup>1</sup></a><a href="/tags/alist/" style="font-size: 1.05rem;">alist<sup>2</sup></a><a href="/tags/clash/" style="font-size: 1.05rem;">clash<sup>23</sup></a><a href="/tags/cloudflare/" style="font-size: 1.05rem;">cloudflare<sup>35</sup></a><a href="/tags/cloudns/" style="font-size: 1.05rem;">cloudns<sup>1</sup></a><a href="/tags/iptv/" style="font-size: 1.05rem;">iptv<sup>2</sup></a><a href="/tags/m3u8/" style="font-size: 1.05rem;">m3u8<sup>2</sup></a><a href="/tags/nezha/" style="font-size: 1.05rem;">nezha<sup>2</sup></a><a href="/tags/obl-ong/" style="font-size: 1.05rem;">obl.ong<sup>2</sup></a><a href="/tags/serv00/" style="font-size: 1.05rem;">serv00<sup>8</sup></a><a href="/tags/vless/" style="font-size: 1.05rem;">vless<sup>6</sup></a><a href="/tags/%E4%B8%93%E7%BA%BF/" style="font-size: 1.05rem;">专线<sup>1</sup></a><a href="/tags/%E4%BA%91%E7%9B%98/" style="font-size: 1.05rem;">云盘<sup>2</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/" style="font-size: 1.05rem;">免费域名<sup>6</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" style="font-size: 1.05rem;">免费节点<sup>27</sup></a><a href="/tags/%E5%9F%9F%E5%90%8D/" style="font-size: 1.05rem;">域名<sup>6</sup></a><a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" style="font-size: 1.05rem;">大模型<sup>1</sup></a><a href="/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" style="font-size: 1.05rem;">常见问题<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" style="font-size: 1.05rem;">技术分享<sup>2</sup></a><a href="/tags/%E6%9C%BA%E5%9C%BA/" style="font-size: 1.05rem;">机场<sup>3</sup></a><a href="/tags/%E6%BB%A1%E6%BB%A1%E5%B9%B2%E8%B4%A7/" style="font-size: 1.05rem;">满满干货<sup>2</sup></a><a href="/tags/%E7%94%B5%E8%A7%86/" style="font-size: 1.05rem;">电视<sup>2</sup></a><a href="/tags/%E7%9B%91%E6%8E%A7/" style="font-size: 1.05rem;">监控<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 1.05rem;">直播<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/" style="font-size: 1.05rem;">直播源<sup>1</sup></a><a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" style="font-size: 1.05rem;">科学上网<sup>29</sup></a><a href="/tags/%E7%BD%91%E7%9B%98/" style="font-size: 1.05rem;">网盘<sup>2</sup></a><a href="/tags/%E8%8A%82%E7%82%B9/" style="font-size: 1.05rem;">节点<sup>3</sup></a><a href="/tags/%E8%A7%A3%E9%94%81GPT/" style="font-size: 1.05rem;">解锁GPT<sup>23</sup></a><a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 1.05rem;">订阅<sup>23</sup></a></div></div><hr/><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/09/"><span class="card-archive-list-date">九月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">14</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">27</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li></ul></div><hr/><div class="card-webinfo"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-file-lines"></i><div class="item-name">文章总数 :</div></div><div class="item-count">48</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-stopwatch"></i><div class="item-name">建站天数 :</div></div><div class="item-count" id="runtimeshow" data-publishDate="2024-06-30T16:00:00.000Z"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-font"></i><div class="item-name">全站字数 :</div></div><div class="item-count">42.4k</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-universal-access"></i><div class="item-name">总访客数 :</div></div><div class="item-count" id="busuanzi_value_site_uv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-square-poll-vertical"></i><div class="item-name">总访问量 :</div></div><div class="item-count" id="busuanzi_value_site_pv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/amclubs" title="GitHub"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB" title="YouTube"><i class="anzhiyufont anzhiyu-icon-play"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://t.me/AM_CLUBS" title="电报(Telegram)交流群"><i class="anzhiyufont anzhiyu-icon-paper-plane"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/default.ico" size="50px"/><a class="deal_link" href="mailto:amclubss@gmail.com" title="Email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://facebook.com/groups/amclubs" title="Facebook"><i class="anzhiyufont anzhiyu-icon-facebook1"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://tiktok.com/@amclubss" title="TikTok"><i class="anzhiyufont anzhiyu-icon-tiktok"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://x.com/AMClubss" title="X(Twitter)"><i class="anzhiyufont anzhiyu-icon-dove"></i></a></div><div id="anzhiyu-footer"><div class="footer-group"><div class="footer-title">工具</div><div class="footer-links"><a class="footer-item" title="订阅工具" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-tunnel/blob/main/README.md">订阅工具</a><a class="footer-item" title="服务监控" target="_blank" rel="noopener" href="https://nezha.amclubs.us.kg/">服务监控</a><a class="footer-item" title="Dig" target="_blank" rel="noopener" href="https://toolbox.googleapps.com/apps/dig/">Dig</a><a class="footer-item" title="加密/解密" target="_blank" rel="noopener" href="https://toolbox.googleapps.com/apps/encode_decode/">加密/解密</a><a class="footer-item" title="IPCheck" target="_blank" rel="noopener" href="https://ipcheck.ing/">IPCheck</a></div></div><div class="footer-group"><div class="footer-title">CND | 公益</div><div class="footer-links"><a class="footer-item" title="Cloudflare" target="_blank" rel="noopener" href="https://cloudflare.com/">Cloudflare</a><a class="footer-item" title="优选/反代域名IP" href="/cf/">优选/反代域名IP</a></div></div><div class="footer-group"><div class="footer-title">热门项目</div><div class="footer-links"><a class="footer-item" title="免费vless节点" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-tunnel">免费vless节点</a><a class="footer-item" title="免费trojan节点" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-trojan">免费trojan节点</a><a class="footer-item" title="免费vmess节点" target="_blank" rel="noopener" href="https://github.com/ansoncloud8/am-serv00-vmess">免费vmess节点</a><a class="footer-item" title="serv00(alist)" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-alist-freebsd">serv00(alist)</a><a class="footer-item" title="聚合汇聚订阅" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-sub-rss">聚合汇聚订阅</a></div></div><div class="footer-group"><div class="footer-title">推荐项目</div><div class="footer-links"><a class="footer-item" title="免费Vercel直播" target="_blank" rel="noopener" href="https://github.com/amclubs/iptv-go">免费Vercel直播</a><a class="footer-item" title="CF部署BPB节点" target="_blank" rel="noopener" href="https://github.com/amclubs/BPB-Worker-Panel">CF部署BPB节点</a><a class="footer-item" title="免费CF存储KV" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-text2kv">免费CF存储KV</a><a class="footer-item" title="CF私密github" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-github2raw">CF私密github</a><a class="footer-item" title="免费CF测速地址" target="_blank" rel="noopener" href="https://github.com/amclubs/am-cf-speed-test-url">免费CF测速地址</a></div></div><div class="footer-group"><div class="footer-title">容器</div><div class="footer-links"><a class="footer-item" title="Vercel" target="_blank" rel="noopener" href="https://vercel.com/">Vercel</a><a class="footer-item" title="iptv-go" target="_blank" rel="noopener" href="https://github.com/amclubs/iptv-go">iptv-go</a></div></div><div class="footer-group"><div class="footer-title">机场</div><div class="footer-links"><a class="footer-item" title="红杏加速器" target="_blank" rel="noopener" href="https://hongxingdl.com/web/#/login?code=mn5Tuipf">红杏加速器</a><a class="footer-item" title="69云" target="_blank" rel="noopener" href="https://am.69yun69.com/">69云</a><a class="footer-item" title="最强机场" target="_blank" rel="noopener" href="https://zqjc.org/#/register?code=mm8JbfEu">最强机场</a></div></div><div class="footer-group"><div class="footer-title-group"><div class="footer-title">友链</div><a class="random-friends-btn" id="footer-random-friends-btn" href="javascript:addFriendLinksInFooter();" title="换一批友情链接"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right"></i></a></div><div class="footer-links" id="friend-links-in-footer"></div></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://github.com/amclubs/" style="margin-inline:5px" data-title="AM科技-GitHub仓库" title="AM科技-GitHub仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="AM科技-GitHub仓库"/></a><a class="github-badge" target="_blank" href="https://youtube.com/@AM_CLUB" style="margin-inline:5px" data-title="AM科技-YouTube频道" title="AM科技-YouTube频道"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&amp;logoColor=white" alt="AM科技-YouTube频道"/></a><a class="github-badge" target="_blank" href="https://t.me/AM_CLUBS" style="margin-inline:5px" data-title="AM科技-电报(Telegram)交流群" title="AM科技-电报(Telegram)交流群"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/Telegram--lightgrey?logo=Telegram&amp;style=social" alt="AM科技-电报(Telegram)交流群"/></a><a class="github-badge" target="_blank" href="https://am.809098.xyz/" style="margin-inline:5px" data-title="AM科技-官网教程" title="AM科技-官网教程"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://am.809098.xyz/img/default.ico" alt="AM科技-官网教程"/></a><a class="github-badge" target="_blank" href="mailto:amclubss@gmail.com" style="margin-inline:5px" data-title="AM科技-Email" title="AM科技-Email"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="AM科技-Email"/></a><a class="github-badge" target="_blank" href="https://facebook.com/groups/amclubs" style="margin-inline:5px" data-title="AM科技-Facebook" title="AM科技-Facebook"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/-Facebook-1877f2?logo=facebook&amp;logoColor=white&amp;link=" alt="AM科技-Facebook"/></a><a class="github-badge" target="_blank" href="https://tiktok.com/@amclubss" style="margin-inline:5px" data-title="AM科技-TikTok" title="AM科技-TikTok"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&amp;logo=TikTok&amp;logoColor=white" alt="AM科技-TikTok"/></a><a class="github-badge" target="_blank" href="https://x.com/AMClubss" style="margin-inline:5px" data-title="AM科技-X(Twitter)" title="AM科技-X(Twitter)"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="AM科技-X(Twitter)"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2024 By <a class="footer-bar-link" href="/" title="AM科技" target="_blank">AM科技</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB" title="技术分享-满满干货">技术分享-满满干货</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">48</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">58</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">9</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://am.809098.xyz/" title="AM科技"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/default.ico" alt="AM科技"/><span class="back-menu-item-text">AM科技</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/amclubs/" title="Github"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" alt="Github"/><span class="back-menu-item-text">Github</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 教程Tutorial</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 全部文章</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 文章分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/FAQ/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 常见问题FAQ</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 推荐REC</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/categories/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/"><i class="anzhiyufont anzhiyu-icon-rocket faa-tada" style="font-size: 0.9em;"></i><span> 机场推荐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> VPS推荐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 公益服务CSR</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/cf/"><i class="anzhiyufont anzhiyu-icon-dice faa-tada" style="font-size: 0.9em;"></i><span> CloudFlare优先</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 短链生成器</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/"><i class="anzhiyufont anzhiyu-icon-rss faa-tada" style="font-size: 0.9em;"></i><span> 订阅转换</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于AM</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="https://am.809098.xyz/about"><i class="anzhiyufont anzhiyu-icon-house-chimney faa-tada" style="font-size: 0.9em;"></i><span> 关于AM科技</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB"><i class="anzhiyufont anzhiyu-icon-play faa-tada" style="font-size: 0.9em;"></i><span> YouTube频道</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://github.com/amclubs"><i class="anzhiyufont anzhiyu-icon-github faa-tada" style="font-size: 0.9em;"></i><span> GitHub仓库</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://t.me/AM_CLUBS"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> Telegram交流群</span></a></li><li><a class="site-page child faa-parent animated-hover" href="mailto:amclubss@gmail.com"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> Email</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://facebook.com/groups/amclubs"><i class="anzhiyufont anzhiyu-icon-facebook1 faa-tada" style="font-size: 0.9em;"></i><span> Facebook</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://tiktok.com/@amclubss"><i class="anzhiyufont anzhiyu-icon-tiktok faa-tada" style="font-size: 0.9em;"></i><span> TikTok</span></a></li><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://x.com/AMClubss"><i class="anzhiyufont anzhiyu-icon-dove faa-tada" style="font-size: 0.9em;"></i><span> X(Twitter)</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/FAQ/"><span> 常见问题FAQ</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 0.88rem;">AI<sup>1</sup></a><a href="/tags/AList/" style="font-size: 0.88rem;">AList<sup>2</sup></a><a href="/tags/AM%E7%A7%91%E6%8A%80/" style="font-size: 0.88rem;">AM科技<sup>2</sup></a><a href="/tags/CDN/" style="font-size: 0.88rem;">CDN<sup>6</sup></a><a href="/tags/CF/" style="font-size: 0.88rem;">CF<sup>37</sup></a><a href="/tags/DNS/" style="font-size: 0.88rem;">DNS<sup>5</sup></a><a href="/tags/VPN/" style="font-size: 0.88rem;">VPN<sup>34</sup></a><a href="/tags/VPS/" style="font-size: 0.88rem;">VPS<sup>2</sup></a><a href="/tags/Vercel/" style="font-size: 0.88rem;">Vercel<sup>2</sup></a><a href="/tags/YouTube/" style="font-size: 0.88rem;">YouTube<sup>2</sup></a><a href="/tags/ai/" style="font-size: 0.88rem;">ai<sup>1</sup></a><a href="/tags/alist/" style="font-size: 0.88rem;">alist<sup>2</sup></a><a href="/tags/clash/" style="font-size: 0.88rem;">clash<sup>23</sup></a><a href="/tags/cloudflare/" style="font-size: 0.88rem;">cloudflare<sup>35</sup></a><a href="/tags/cloudns/" style="font-size: 0.88rem;">cloudns<sup>1</sup></a><a href="/tags/iptv/" style="font-size: 0.88rem;">iptv<sup>2</sup></a><a href="/tags/m3u8/" style="font-size: 0.88rem;">m3u8<sup>2</sup></a><a href="/tags/nezha/" style="font-size: 0.88rem;">nezha<sup>2</sup></a><a href="/tags/obl-ong/" style="font-size: 0.88rem;">obl.ong<sup>2</sup></a><a href="/tags/serv00/" style="font-size: 0.88rem;">serv00<sup>8</sup></a><a href="/tags/vless/" style="font-size: 0.88rem;">vless<sup>6</sup></a><a href="/tags/%E4%B8%93%E7%BA%BF/" style="font-size: 0.88rem;">专线<sup>1</sup></a><a href="/tags/%E4%BA%91%E7%9B%98/" style="font-size: 0.88rem;">云盘<sup>2</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/" style="font-size: 0.88rem;">免费域名<sup>6</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/" style="font-size: 0.88rem;">免费节点<sup>27</sup></a><a href="/tags/%E5%9F%9F%E5%90%8D/" style="font-size: 0.88rem;">域名<sup>6</sup></a><a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" style="font-size: 0.88rem;">大模型<sup>1</sup></a><a href="/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" style="font-size: 0.88rem;">常见问题<sup>1</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" style="font-size: 0.88rem;">技术分享<sup>2</sup></a><a href="/tags/%E6%9C%BA%E5%9C%BA/" style="font-size: 0.88rem;">机场<sup>3</sup></a><a href="/tags/%E6%BB%A1%E6%BB%A1%E5%B9%B2%E8%B4%A7/" style="font-size: 0.88rem;">满满干货<sup>2</sup></a><a href="/tags/%E7%94%B5%E8%A7%86/" style="font-size: 0.88rem;">电视<sup>2</sup></a><a href="/tags/%E7%9B%91%E6%8E%A7/" style="font-size: 0.88rem;">监控<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 0.88rem;">直播<sup>2</sup></a><a href="/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/" style="font-size: 0.88rem;">直播源<sup>1</sup></a><a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" style="font-size: 0.88rem;">科学上网<sup>29</sup></a><a href="/tags/%E7%BD%91%E7%9B%98/" style="font-size: 0.88rem;">网盘<sup>2</sup></a><a href="/tags/%E8%8A%82%E7%82%B9/" style="font-size: 0.88rem;">节点<sup>3</sup></a><a href="/tags/%E8%A7%A3%E9%94%81GPT/" style="font-size: 0.88rem;">解锁GPT<sup>23</sup></a><a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 0.88rem;">订阅<sup>23</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"><a class="tag-list" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9" title="免费节点">免费节点</a><a class="tag-list" href="/tags/CloudFlare" title="CloudFlare">CloudFlare</a><a class="tag-list" href="/tags/vless" title="vless">vless</a><a class="tag-list" href="/tags/VMess" title="VMess">VMess</a><a class="tag-list" href="/tags/serv00" title="serv00">serv00</a><a class="tag-list" href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D" title="免费域名">免费域名</a></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script async src="/anzhiyu/random.js"></script><script src="https://cdn.cbd.int/algoliasearch@4.18.0/dist/algoliasearch-lite.umd.js"></script><script src="https://cdn.cbd.int/instantsearch.js@4.60.0/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="anzhiyu"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://amclubs.netlify.app/.netlify/functions/twikoo',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.25/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
